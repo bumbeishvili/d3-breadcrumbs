@@ -82,7 +82,7 @@ d3.breadcrumb = function (params) {
 
         //change anchor based on arrow direction  
         if (attrs.leftDirection) {
-          enteredText.attr('text-anchor', 'middle')
+          enteredText.attr('x',10)
         }
 
         // merged selection
